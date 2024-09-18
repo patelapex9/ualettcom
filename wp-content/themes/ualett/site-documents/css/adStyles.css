@@ -1,0 +1,1166 @@
+/*-- General Styles --*/
+
+body, html {
+    overflow-x: hidden;
+}
+
+.elementor-button-wrapper a {
+    text-decoration: none !important;
+}
+
+span.general_span {
+	font-weight: 800;
+}
+
+span.general_span1 {
+	font-weight: 900;
+}
+
+span.general_span2 {
+	font-weight: 800;
+	color: #3671B7;
+}
+
+span.general_span3 {
+	font-weight: 800;
+	color: #EE9B4E;
+	font-size: 1.3em;
+}
+
+span.register-symbol {
+    font-size: 0.8em;
+    position: relative;
+    top: -5px;
+}
+
+/*-- Menu --*/
+
+header .desktop-menu nav.elementor-nav-menu__container ul#menu-1-c2ced7b li.current-menu-ancestor.current-menu-parent a.elementor-item.has-submenu:after{
+    /*content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: #193f71;*/
+    opacity: 1;
+
+}
+
+header .desktop-menu nav.elementor-nav-menu__container ul#menu-1-c2ced7b li.current-menu-ancestor.current-menu-parent a.elementor-item.has-submenu,
+header .desktop-menu nav.elementor-nav-menu__container ul#menu-1-c2ced7b li.current-menu-ancestor.current-menu-parent a.elementor-item.has-submenu span.sub-arrow i {
+    color: #3671b7;
+}
+
+/* End Menu */
+
+.swiper-pagination span.swiper-pagination-bullet {
+	opacity: 1;
+	border: 3px solid transparent;
+}
+
+.swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background-color: #fff !important;
+	border: 3px solid #4D81C0;
+}
+
+/*--- FAQs Element (General Style) ---*/
+
+.faqs_element .elementor-accordion .elementor-accordion-item .elementor-tab-title {
+    margin: 10px 0px !important;
+    border-radius: 15px;
+}
+
+.faqs_element .elementor-accordion .elementor-accordion-item .elementor-tab-content {
+    border-radius: 15px;
+}
+
+.faqs_element .elementor-accordion .elementor-tab-title .elementor-accordion-icon span i{
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+
+/*- End FAQs Element (General Style) -*/
+
+
+/* End General Styles */
+
+/*---- Slider ----*/
+
+#n2-ss-2 .n2-ss-control-bullet {
+	position: relative;
+  /*left: 135px;*/
+	left: 130px;
+  bottom: 15%;
+}
+
+#n2-ss-2 .text-column {
+    position: relative;
+    top: -40px;
+}
+
+
+/*-- End Slider --*/
+
+/*--- First Section ---*/
+/* Solutions Carrousel */
+
+.solutions_container .solution_item {
+	border-radius: 20px;
+} 
+
+.solutions_container .solution_item .solutions_btn {
+	display: none;
+}
+
+.solutions_container .solution_item .solutions_btn a {
+	text-decoration: none;
+}
+
+.solutions_container .solution_item:hover {
+	cursor: pointer;
+	background-color: #EAF1FF;
+}
+
+.solutions_container .solution_item:hover .solutions_btn{ 
+	display: block;
+}
+
+/*-- End First Section ---*/
+
+/*--- Fourth Section ---*/
+
+#fourth_section .hand_holding div img {
+	width: 85%;
+  height: 605px;
+  object-fit: cover;
+  object-position: center top;
+	border-bottom-right-radius: 25px;
+
+}
+
+/*-- End Fourth Section ---*/
+
+div.special-title {
+    position: relative;
+    left: 25px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.special-title h2 {
+    color: #193f71;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 2.8em;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1em;
+}
+
+div.special-title img {
+    width: 12%;
+    margin: 0 10px;
+}
+
+/*--- Fifth Section ---*/
+
+.download_app {
+	position: relative;
+	left: 16%;
+}
+
+@media (min-width: 1900px) {
+
+    .fifth_mockup div {
+        margin: 0% 0% 0% 0% !important;
+        position: relative;
+        left: 120px;
+    }
+
+}
+
+/*-- End Fifth Section ---*/
+
+/*---- Sixth Section ----*/
+
+.sixth_section .steps-item div.step_number {
+	 text-align: center;
+	 width: 70px;
+   height: 70px;
+	 background-color: #3E73B6;
+   padding: 5px 20px;
+   border-radius: 50%;
+}
+
+.sixth_section .steps-item div.step_number span {
+	 color: #fff;
+   font-family: 'Nunito Sans';
+   font-weight: 800;
+   font-size: 2.5em;
+}
+
+/*-- End Sixth Section ---*/
+
+/*---- Seventh Section ----*/
+
+.clientfeed_item .clientfeed_avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+
+.clientfeed_item .clientfeed p{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+/*-- End Sixth Section ---*/
+
+
+/*----  Contact Page  ----*/
+
+/*--- Contact Form ---*/
+
+.contact-ways .elementor-icon-box-wrapper .elementor-icon-box-content h3.elementor-icon-box-title a {
+    color: #193F71 !important;
+    text-decoration: none !important;
+}
+
+.form_mainContainer {
+    min-height: 650px !important;
+    max-height: 700px !important;
+    height: 650px !important;
+}
+
+.form_mainContainer .frm_forms form#form_contact-form h3.frm_form_title {
+    font-family: "Nunito Sans", Sans-serif;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form_mainContainer .frm_forms form#form_contact-form .frm_description p { 
+    font-family: "Nunito Sans", Sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+
+}
+
+.frm_forms form#form_contact-form {
+    text-align: left;
+}
+
+.frm_forms form#form_contact-form .frm_error_style{
+    display: none;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_form_field .frm_error {
+    color: orange;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_form_field {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields #frm_field_9_container {
+    margin-bottom: 0;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields label {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_form_field.frm_label_float_top label{
+   top: -5px;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields input[type="text"],
+.frm_forms form#form_contact-form .frm_form_fields input[type="email"],
+.frm_forms form#form_contact-form .frm_form_fields input[type="tel"],
+.frm_forms form#form_contact-form .frm_form_fields textarea {
+    font-family: 'Nunito Sans';
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(25 64 113 / 60%);
+    border: 0;
+    border-radius: 10px;
+    height: 55px;
+    padding: 10px 25px;
+}
+
+
+.frm_forms form#form_contact-form .frm_form_fields textarea {
+    height: 100px;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields textarea::placeholder {
+    color: #fff;
+}
+
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_checkbox label {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_checkbox {
+    margin: 15px 0px;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_checkbox input[type="checkbox"] {
+    width: 15px;
+    height: 17px;
+    background-color: rgb(25 64 113 / 60%);
+    border: 0;
+    border-radius: 2px;
+    margin: 0 10px 0 0;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_submit button.frm_button_submit {
+    width: 100%;
+    background-color: #194071;
+    font-weight: 900;
+    font-size: 1.3em;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+.frm_forms form#form_contact-form .frm_form_fields .frm_submit button.frm_button_submit:hover {
+    color: #fff;
+    background-color: #194071;
+}
+
+/*-- Confirmation Message Styles --*/
+
+.frm_forms#frm_form_1_container .frm_message {
+    text-align: center;
+    border-radius: 0;
+    color: #fff;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.frm_forms#frm_form_1_container .frm_message .confirmation-container .container-img {
+    background-color: #194071;
+    align-self: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 25px 25px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.frm_forms#frm_form_1_container .frm_message .confirmation-container .container-img img {
+    width: 100%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.frm_forms#frm_form_1_container .frm_message .confirmation-container .confirmation-title {
+    font-size: 1.9em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.frm_forms#frm_form_1_container .frm_message .confirmation-container .confirmation-description {
+    color: #fff;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+
+
+/* End Confirmation Message Styles */
+
+/*-- End Contact Form */
+
+/*--  End Contact Page  --*/
+
+/*--  Archive Blog Page  --*/
+
+body.blog .blog_container .blog_title div h3 {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2;
+   -webkit-box-orient: vertical;
+}
+
+body.blog .blog_container .blog_content div  {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+
+body.blog .mainblog_container nav.elementor-pagination span.page-numbers.current, body.blog nav.elementor-pagination a.page-numbers.current, body.archive.post-type-archive nav.elementor-pagination span.page-numbers.current, body.archive.post-type-archive nav.elementor-pagination a.page-numbers.current {
+    font-weight: 800;
+    background-color: #194071;
+}
+
+body.blog .mainblog_container nav.elementor-pagination span.page-numbers, body.blog nav.elementor-pagination a.page-numbers, body.archive.post-type-archive nav.elementor-pagination span.page-numbers, body.archive.post-type-archive nav.elementor-pagination a.page-numbers {
+    background-color: #E4EEFF;
+    padding: 10px 15px;
+    color: #2C2C2C;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+body.blog .mainblog_container nav.elementor-pagination span.page-numbers:hover, body.blog .mainblog_container nav.elementor-pagination a.page-numbers:hover, body.archive.post-type-archive .mainblog_container nav.elementor-pagination span.page-numbers:hover, body.archive.post-type-archive .mainblog_container nav.elementor-pagination a.page-numbers:hover {
+    background-color: #3671B7;
+}
+
+body.blog .mainblog_container nav.elementor-pagination .page-numbers.prev,
+body.blog .mainblog_container nav.elementor-pagination .page-numbers.next {
+    padding: 10px 30px;
+}
+
+
+/*--  End Archive Page  --*/
+
+/*--- The App ---*/ 
+
+/*-- Coverage Tabs --*/
+
+.coverage_container .coverage_item .coverage_title {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.coverage-tabs .elementor-tabs-content-wrapper {
+  border-radius: 30px;
+}
+
+.coverage-tabs div .elementor-tabs .elementor-tabs-wrapper ul.plus-tabs-nav li div.elementor-tab-title{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*- End The App -*/ 
+
+
+/*- Single Solution Template -*/ 
+
+.solution-title div {
+    width: fit-content;
+    background-color: #193F71;
+    padding: 12px 35px;
+    border-radius: 50px;
+}
+
+.solution-img div {
+    max-width: 580px;
+}
+
+.solution-description div.elementor-widget-container {
+   max-height: 100px !important;
+}
+
+.official_video iframe {
+    border-radius: 25px;
+}
+
+/*- End Single Solution Template -*/ 
+
+
+/*--  Single Blog Page  --*/
+
+body.single-post .single_post-container .category-tag ul.elementor-post-info li.elementor-inline-item {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 40px;
+    margin: 15px 10px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    background: rgb(25, 64, 113);
+    background: linear-gradient(180deg, rgba(25, 64, 113, 1) 20%, rgba(36, 85, 139, 1) 50%, rgba(54, 119, 183, 1) 100%);
+}
+
+body.single-post .single_post-container .category-tag ul.elementor-post-info li.elementor-inline-item span{ 
+    color: #fff;
+}
+
+body.single-post .single_post-container h2,
+body.single-post .single_post-container h3,
+body.single-post .single_post-container h4{
+    font-weight: 800 !important;
+}
+
+body.single-post .single_post-container h3 {
+    font-size: 1.3em;
+}
+
+body.single-post .single_post-container h4 {
+    font-size: 1.2em;
+}
+
+body.single-post .single_post-container .elementor-widget-theme-post-content a {
+    color: #194071;
+    font-weight: 800;
+}
+
+body.single-post .single_post-container .elementor-widget-theme-post-content a:hover {
+    text-decoration: underline;
+}
+
+
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #E4EEFF;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link:hover {
+     background-color: #cddcf6;
+}
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link.elementor-post-navigation__prev {
+    margin-right: 50px;
+}
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link.elementor-post-navigation__next {
+    margin-left: 50px;
+}
+
+/*---- Single Comment Form ----*/
+
+body.single-post section#comments.comments-area h3#reply-title {
+    display: none;
+}
+
+body.single-post section#comments.comments-area p.form-submit {
+    text-align: center;
+}
+
+body.single-post section#comments.comments-area #commentform p a{
+    font-weight: 600;
+    color: #194071;
+}
+
+body.single-post section#comments.comments-area #commentform label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+body.single-post section#comments.comments-area a {
+    font-weight: 700;
+    color: #3671B7;
+    text-decoration: none;
+}
+
+body.single-post section#comments.comments-area h3.title-comments {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #193f71;
+}
+
+
+body.single-post section#comments.comments-area #commentform input[type="text"],
+body.single-post section#comments.comments-area #commentform input[type="email"], body.single-post section#comments.comments-area #commentform input[type="url"], body.single-post section#comments.comments-area #commentform textarea{
+    border: 2px solid #D8D8D8;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+}
+
+body.single-post section#comments.comments-area #commentform textarea {
+    border-radius: 15px;
+    height: 125px;
+}
+
+body.single-post section#comments.comments-area #commentform textarea:focus { 
+    outline-color: #194071;
+}
+
+body.single-post section#comments.comments-area .form-submit input[type="submit"]{
+    border: 0;
+    background-color: #194071;
+    font-size: 1.3em;
+    padding: 10px 65px 10px 65px;
+}
+
+body.single-post section#comments.comments-area .form-submit input[type="submit"]:hover{ 
+    background-color: #3671B7;
+}
+
+/*-- End Single Comment Form --*/
+
+/*--  End Archive Page  --*/
+
+
+/*--- Solution Single Post ---*/
+
+body.single-solutions.postid-179 .solution_image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    position: relative;
+    top: 75px;
+}
+
+/*- End Solution Single Post -*/
+
+/*---- Footer ----*/
+
+.phone-bubble {
+   background-color: #3671B7;
+   width: 100%;
+        max-width:150px;
+        height: auto;
+        text-align: center;
+        padding: 5px 10px;
+        margin: 10px 20px;
+        border-radius: 50px;
+    }
+    
+    #customer-care.phone-bubble:before,
+    #corporate-number.phone-bubble:before{
+    content:"";
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #3671B7 transparent transparent;
+    position: absolute;
+    left: 10px;
+    top: auto;
+    }
+    
+    .phone-bubble p {
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size: 0.9em;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+    }
+    
+     .elementor-widget-html .elementor-widget-container #corporate-number{
+       display: none;
+    }
+    
+    
+    /*.elementor-icon-box-wrapper .elementor-icon-box-content .elementor-icon-box-title span a.first-number:hover + .elementor-widget-html .elementor-widget-container #customer-care{
+       display: block;
+    } */
+    
+    .elementor-widget-html .elementor-widget-container #customer-care a:hover  + .elementor-widget-html .elementor-widget-container #corporate-number{
+       display: block;
+    } 
+
+#copyright a {
+	color: #fff;
+}
+
+#copyright a:hover {
+	text-decoration: underline;
+}
+
+#copyright div.copyright_links span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+footer#main_footer .contact-item#location .elementor-icon-box-content p.elementor-icon-box-title,
+footer#main_footer .contact-item#email .elementor-icon-box-content p.elementor-icon-box-title {
+    margin: 0;
+    padding: 0;
+
+}
+/*-- End Footer --*/
+
+/*----  Mobile Version  ----*/
+
+@media (min-width: 300px) and (max-width: 576px) {  
+    
+    /*---- Mobile Menu General Styles ----*/
+    
+    .hfe-nav-menu__toggle .hfe-nav-menu-icon {
+        padding: 2px 5px !important;
+    }
+    
+    .hfe-nav-menu__toggle .hfe-nav-menu-icon i {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 3px ;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content .hfe-flyout-close{ 
+        top: 10px;
+        right: 10px;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content .hfe-flyout-close i{ 
+        font-size: 0.9em;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content {
+        padding: 0;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92:before{
+        content: url('https://ualett.asesores.com.do/wp-content/uploads/2024/08/ualett_mobile-3.webp');
+        position: relative;
+        left: 50px;
+        top: 65px;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li#menu-item-3163 a {
+        width: 80% !important;
+        margin: 0 auto !important;
+        background-color: #3671B7 !important;
+        border-radius: 50px !important;
+        margin-top: 30px !important;
+    }
+    
+     .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li a span.sub-arrow {
+         font-size: 1.1em;
+     }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li a span.sub-arrow i:before {
+        display: inline-block;
+        font-family: "Ionicons";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+         text-rendering: auto;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        content: "\f3d0";   
+        
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current-menu-item a ,.hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current_page_item a, .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current-menu-item a:hover,
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current_page_item a:hover{
+        font-weight: 800;
+        background-color: #113460;
+        font-weight: 800;
+    }
+    
+
+    /*- End Mobile Menu General Styles --*/
+    
+    /*---- Slider ----*/
+    
+    #n2-ss-2 .n2-ss-slider-1 {
+        height: 500px;
+    }
+    #n2-ss-2  .n2-ss-section-main-content {
+        justify-content: normal !important;
+    }
+
+    #n2-ss-2 .slider_MainTitle div.n2-ss-text {
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #n2-ss-2 .slider_Subtitle div.n2-ss-text {
+        font-size: 1.9em;
+        text-align: center;
+    }
+    
+    #n2-ss-2 .slider_description div.n2-ss-item-content div p {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    
+    #n2-ss-2 .slider_Btn {
+        align-self: center;
+    }
+    
+    #n2-ss-2 .slider_img {
+        display: none;
+    }
+    
+    #n2-ss-2 .n2-ss-control-bullet {
+        left: 0;
+        margin: 0 auto;
+        bottom: 20%;
+    }
+    
+    #n2-ss-2 .text-column {
+        position: relative;
+        top: 65px;
+    }
+
+    /*-- End Slider --*/
+    
+    /*--- Home Page --*/
+    
+    .solutions_container .solution_item {
+	    cursor: pointer;
+	    background-color: #EAF1FF;
+    }
+
+    .solutions_container .solution_item .solutions_btn{ 
+	    display: block;
+    }
+    
+    div.special-title {
+        left: 0;
+    }
+    
+    div.special-title h2 {
+        font-size: 2em;
+    }
+
+    div.special-title img {
+        width: 25%;
+    }
+    
+    span.general_span3 {
+	    font-size: 1em;
+    }
+    
+    .download_app {
+	    left: 0;
+    }
+    
+    .sixth_section .steps-item div.step_number {
+	    width: 60px;
+        height: 60px;
+    }
+    
+    .sixth_section .steps-item h2 {
+        width: 100%;
+        white-space: pre-wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .sixth_section .steps-item div.step_number span {
+        font-size: 2em;
+    }
+
+    /*--- End Home Page --*/
+    
+    /*---- FAQs Page ----*/
+
+    .faqs_element .elementor-accordion .elementor-tab-title .elementor-accordion-icon span i {
+        font-size: 25px;
+        top: 0px;
+    }
+    
+    /*-- End FAQs Page --*/
+
+        footer#main_footer .contact-container {
+        background-color: #193A66;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    /*---- Contact Page ----*/
+    
+    .form_mainContainer {
+        min-height: 740px !important;
+        max-height: 745px !important;
+        height: 740px !important;
+    }
+    
+    .form_mainContainer .frm_forms form#form_contact-form h3.frm_form_title {
+        font-size: 1.8em;
+        line-height: 1.1em;
+    }
+    
+    .form_mainContainer .frm_forms form#form_contact-form .frm_description p {
+        margin: 0 0 15px 0;
+    }
+    
+    .frm_forms form#form_contact-form .frm_form_fields .frm_form_field {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .frm_forms form#form_contact-form .frm_form_fields input[type="text"], .frm_forms form#form_contact-form .frm_form_fields input[type="email"], .frm_forms form#form_contact-form .frm_form_fields input[type="tel"] {
+        height: 45px;
+    }
+    
+    .frm_forms form#form_contact-form .frm_form_fields textarea {
+        height: 90px;
+    }
+    
+    .frm_forms form#form_contact-form .frm_form_fields .frm_checkbox label {
+        font-size: 0.8em;
+        line-height: 1em;
+    }
+    
+    .frm_forms form#form_contact-form .frm_form_fields .frm_submit button.frm_button_submit {
+        font-size: 1.2em;
+        padding: 10px 25px;
+    }
+    
+    .frm_forms#frm_form_1_container .frm_message .confirmation-container .confirmation-title {
+        font-size: 1.6em;
+    }
+    
+    /*-- End Contact Page --*/
+    
+    /*--- The App ---*/ 
+
+    /*-- Coverage Tabs --*/
+
+    .coverage_container .coverage_item .coverage_title {
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .coverage-tabs .elementor-tabs-content-wrapper {
+        border-radius: 30px;
+    }
+    
+    .coverage-tabs div .elementor-tabs .elementor-tabs-wrapper ul.plus-tabs-nav li {
+        width: 100%;
+    }
+
+    .coverage-tabs div .elementor-tabs .elementor-tabs-wrapper ul.plus-tabs-nav li div.elementor-tab-title{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin: 0 !important;
+    }
+    
+    .coverage-tabs div .elementor-tabs .elementor-tabs-wrapper ul.plus-tabs-nav li div.elementor-tab-title.inactive{ 
+        background-color: #e7edf4 !important;
+    }
+    
+    .coverage-tabs div .elementor-tabs .elementor-tabs-wrapper ul.plus-tabs-nav li div#elementor-tab-title-9521{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+/*- End The App -*/
+
+/*--- Single Post ---*/
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link.elementor-post-navigation__prev {
+    margin-right: 6px;
+}
+
+body.single-post .single_post-container .post_navigation .elementor-post-navigation .elementor-post-navigation__link.elementor-post-navigation__next {
+    margin-left: 5px;
+}
+
+body.single-post section#comments.comments-area p.logged-in-as{
+    text-align: center;
+}
+
+body.single-post section#comments.comments-area #commentform .comment-form-cookies-consent label {
+    font-size: 0.9em;
+}
+
+body.single-post section#comments.comments-area .form-submit input[type="submit"]{
+    width: 100%;
+    font-size: 1.1em;
+}
+
+/*- End Single Post --*/
+
+
+/*--- Solution Single Post ---*/
+
+body.single-solutions.postid-179 .solution_image img {
+    top: 0;
+}
+
+/*- End Solution Single Post -*/
+    
+}
+
+/*--  End Mobile Version  --*/
+
+/*----  Tablet Version  ----*/
+
+
+@media (min-width: 767px) and (max-width: 1024px) { 
+    
+    /*---- Mobile Menu General Styles ----*/
+    
+    .hfe-nav-menu__toggle .hfe-nav-menu-icon {
+        padding: 2px 5px !important;
+    }
+    
+    .hfe-nav-menu__toggle .hfe-nav-menu-icon i {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 3px ;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content .hfe-flyout-close{ 
+        top: 10px;
+        right: 10px;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content .hfe-flyout-close i{ 
+        font-size: 0.9em;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content {
+        padding: 0;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92:before{
+        content: url('https://ualett.asesores.com.do/wp-content/uploads/2024/07/ualett_mobile-2.png');
+        position: relative;
+        left: 50px;
+        top: 65px;
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li#menu-item-3163 a {
+        width: 80% !important;
+        margin: 0 auto !important;
+        background-color: #3671B7 !important;
+        border-radius: 50px !important;
+        margin-top: 30px !important;
+    }
+    
+     .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li a span.sub-arrow {
+         font-size: 1.1em;
+     }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li a span.sub-arrow i:before {
+        display: inline-block;
+        font-family: "Ionicons";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+         text-rendering: auto;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        content: "\f3d0";   
+        
+    }
+    
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current-menu-item a ,.hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current_page_item a, .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current-menu-item a:hover,
+    .hfe-flyout-wrapper .hfe-flyout-container #hfe-flyout-content-id-9a9ea92.hfe-side .hfe-flyout-content nav ul#menu-1-9a9ea92 li.current_page_item a:hover{
+        font-weight: 800;
+        background-color: #113460;
+        font-weight: 800;
+    }
+    
+
+    /*- End Mobile Menu General Styles --*/
+    
+    /*---- Slider ----*/
+    
+    div#n2-ss-2 .n-uc-PQfXwfD5a8h3-inner {
+        padding: 10px 60px 10px 60px !important;
+    }
+    
+    #n2-ss-2 .n2-ss-slider-1 {
+        height: 500px;
+    }
+    #n2-ss-2  .n2-ss-section-main-content {
+        justify-content: normal !important;
+    }
+
+    #n2-ss-2 .slider_MainTitle div.n2-ss-text {
+        font-size: 3.5em;
+        margin-bottom: 15px;
+    }
+    
+    #n2-ss-2 .slider_Subtitle div.n2-ss-text {
+        font-size: 2em;
+    }
+    
+    #n2-ss-2 .slider_description div.n2-ss-item-content div p {
+        font-size: 1.4em;
+    }
+    
+    #n2-ss-2 .slider_Btn {
+    }
+    
+    
+    #n2-ss-2 .n2-ss-control-bullet {
+        left: 0;
+    }
+    
+    #n2-ss-2 .text-column {
+        top: 70px;
+    }
+    
+    .n2-ss-layer.slider_img {
+        transform: translate(138px, 150px) translate(-60%, -35%) !important;
+    }
+
+    /*-- End Slider --*/
+    
+    
+/*-- Footer --*/
+    
+    .trade-text span {
+        font-size: 15px;
+    }
+    
+/* End Footer */
+
+    .solutions_container .solution_item {
+	    cursor: pointer;
+	    background-color: #EAF1FF;
+    }
+
+    .solutions_container .solution_item .solutions_btn{ 
+	    display: block;
+    }
+    
+    #fourth_section .hand_holding div img {
+        width: 80%;
+        height: 500px;
+    }
+    
+    div.special-title {
+        left: 0;
+    }
+    
+    div.special-title h2 {
+        font-size: 2em;
+    }
+
+    div.special-title img {
+        width: 15%;
+    }
+    
+    span.general_span3 {
+	    font-size: 1em;
+    }
+    
+    .download_app {
+	    left: 0;
+    }
+}
+    /*--- End Home Page --*/
+
+
+/*--  End Tablet Version  --*/
+
+
+
+

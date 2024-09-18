@@ -1,0 +1,36 @@
+[Jul 24 00:36:10] 
+[Jul 24 00:36:10] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.10.1==
+[Jul 24 00:36:10] ----------------------------------------------------
+[Jul 24 00:36:10] Installer bootstrap start
+[Jul 24 00:36:10] Ready to extract the installer
+[Jul 24 00:36:10] Checking permission of destination folder
+[Jul 24 00:36:10] Expand directory from offset 74962450
+[Jul 24 00:36:10] SAPI: litespeed
+[Jul 24 00:36:10] creating /home3/asesore5/public_html/ualett-site/dup-installer/.user.ini with the content:
+[Jul 24 00:36:10] max_execution_time = 3600
+max_input_time = -1
+ignore_user_abort = On
+post_max_size = 4096M
+upload_max_filesize = 4096M
+memory_limit = 4294967296
+default_socket_timeout = 3600
+pcre.backtrack_limit = 99999999999
+[Jul 24 00:36:10] Set permissions of dup-installer<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/addons<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/assets<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/classes<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/ctrls<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/favicon<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/libs<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/src<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/templates<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/vendor<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/.user.ini<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/index.php<br/>
+[Jul 24 00:36:10] Set permissions of dup-installer/main.installer.php<br/>
+[Jul 24 00:36:10] DONE: No detected errors so redirecting to the main installer. Main Installer URI = https://ualett.asesores.com.do/dup-installer/main.installer.php

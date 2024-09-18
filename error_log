@@ -1,0 +1,24 @@
+[24-Jul-2024 17:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/header.php:24
+Stack trace:
+#0 /home3/asesore5/public_html/ualett-site/wp-includes/template.php(810): require_once()
+#1 /home3/asesore5/public_html/ualett-site/wp-includes/template.php(745): load_template('/home3/asesore5...', true, Array)
+#2 /home3/asesore5/public_html/ualett-site/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/asesore5/public_html/ualett-site/wp-includes/template-loader.php(106): include('/home3/asesore5...')
+#5 /home3/asesore5/public_html/ualett-site/wp-blog-header.php(19): require_once('/home3/asesore5...')
+#6 /home3/asesore5/public_html/ualett-site/index.php(17): require('/home3/asesore5...')
+#7 {main}
+  thrown in /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/header.php on line 24
+[24-Jul-2024 17:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/header.php:24
+Stack trace:
+#0 /home3/asesore5/public_html/ualett-site/wp-includes/template.php(810): require_once()
+#1 /home3/asesore5/public_html/ualett-site/wp-includes/template.php(745): load_template('/home3/asesore5...', true, Array)
+#2 /home3/asesore5/public_html/ualett-site/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/index.php(15): get_header()
+#4 /home3/asesore5/public_html/ualett-site/wp-includes/template-loader.php(106): include('/home3/asesore5...')
+#5 /home3/asesore5/public_html/ualett-site/wp-blog-header.php(19): require_once('/home3/asesore5...')
+#6 /home3/asesore5/public_html/ualett-site/index.php(17): require('/home3/asesore5...')
+#7 {main}
+  thrown in /home3/asesore5/public_html/ualett-site/wp-content/themes/hello-elementor/header.php on line 24
+[25-Jul-2024 15:05:12 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[30-Aug-2024 01:29:33 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
